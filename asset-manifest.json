@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/holiday-rental-system/static/css/main.073c9b0a.css",
+    "main.js": "/holiday-rental-system/static/js/main.287abba5.js",
+    "static/js/787.9239aff2.chunk.js": "/holiday-rental-system/static/js/787.9239aff2.chunk.js",
+    "static/media/logo.svg": "/holiday-rental-system/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/holiday-rental-system/index.html",
+    "main.073c9b0a.css.map": "/holiday-rental-system/static/css/main.073c9b0a.css.map",
+    "main.287abba5.js.map": "/holiday-rental-system/static/js/main.287abba5.js.map",
+    "787.9239aff2.chunk.js.map": "/holiday-rental-system/static/js/787.9239aff2.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.073c9b0a.css",
+    "static/js/main.287abba5.js"
+  ]
+}
