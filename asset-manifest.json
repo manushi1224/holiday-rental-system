@@ -1,16 +1,15 @@
 {
   "files": {
-    "main.css": "/holiday-rental-system/static/css/main.073c9b0a.css",
-    "main.js": "/holiday-rental-system/static/js/main.a071d7cc.js",
+    "main.css": "/holiday-rental-system/static/css/main.d26d2564.css",
+    "main.js": "/holiday-rental-system/static/js/main.80a6ce9c.js",
     "static/js/787.9239aff2.chunk.js": "/holiday-rental-system/static/js/787.9239aff2.chunk.js",
-    "static/media/logo.svg": "/holiday-rental-system/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/holiday-rental-system/index.html",
-    "main.073c9b0a.css.map": "/holiday-rental-system/static/css/main.073c9b0a.css.map",
-    "main.a071d7cc.js.map": "/holiday-rental-system/static/js/main.a071d7cc.js.map",
+    "main.d26d2564.css.map": "/holiday-rental-system/static/css/main.d26d2564.css.map",
+    "main.80a6ce9c.js.map": "/holiday-rental-system/static/js/main.80a6ce9c.js.map",
     "787.9239aff2.chunk.js.map": "/holiday-rental-system/static/js/787.9239aff2.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.073c9b0a.css",
-    "static/js/main.a071d7cc.js"
+    "static/css/main.d26d2564.css",
+    "static/js/main.80a6ce9c.js"
   ]
 }
