@@ -1,0 +1,117 @@
+:root {
+    --mainFont: 'Nunito Sans', sans-serif
+}
+
+.main {
+    font-family: var(--mainFont);
+}
+
+.bookcard {
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    width: 71%;
+}
+
+.guestdrop {
+    width: 100%;
+}
+
+.dropdown-toggle {
+    width: 100%;
+    border: 1px solid rgb(168, 168, 168);
+    padding: 2px;
+}
+
+.dropdown-menu {
+    width: 100%;
+}
+
+.custom-toggle {
+    text-align: left;
+}
+
+.guest{
+    font-size: small;
+}
+
+.dropdown-toggle::after {
+    display: none;
+}
+
+.dropdown-toggle:focus{
+    border: 2px solid black;
+    box-shadow: none !important;
+}
+
+.minusbtn{
+    border-radius: 50%;
+    border: 1px solid gray;
+    height: 2rem;
+    margin: 1.1rem;
+}
+
+.plusbtn{
+    border-radius: 50%;
+    border: 1px solid gray;
+    margin: 1.1rem;
+    height: 2rem;
+}
+
+.criteriaFilter {
+    width: 25rem;
+    display: grid;
+    grid-template-columns: auto 50%;
+}
+
+.criteriaDetail{
+    width: 35%;
+}
+
+.criteriaDetail>div:nth-child(2) {
+    font-size: 0.95rem;
+}
+
+.criteriaChangeBtn {
+    display: flex;
+    justify-content: flex-end !important;
+}
+
+.card{
+    border-radius: 6%;
+}
+
+/* :is(.minusbtn, .plusbtn) {
+    font-size: 1.2rem;
+    width: 2rem;
+    height: 2rem;
+    border: 1px solid lightgrey;
+    border-radius: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} */
+
+.btn.disabled,
+.btn:disabled,
+fieldset:disabled .btn {
+    color: lightgrey;
+    border-color: lightgrey;
+    cursor: not-allowed !important;
+}
+
+/* .btn.disabled,
+.btn:disabled,
+fieldset:disabled .btn:hover{
+} */
+
+.modal-20w{
+    width: 20%;
+    position: relative;
+    padding-top: 35vh;
+}
+
+.reserveDate{
+    width: 100%;
+    padding: 0.7rem;
+    background-color: #E00B41;
+    color: white;
+}

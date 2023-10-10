@@ -1,3 +1,26 @@
-body{
-    background-color: white;
+.modal-100w {
+    position: relative;
+    width: 100%;
+    max-width: 100%;
+}
+
+.list-modal {
+    list-style-type: none;
+}
+
+.footer {
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    background-color: rgb(246, 246, 246);
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+.modal-bottom {
+    padding-top: 32rem;
+}
+
+.close-btn{
+    background-color: rgb(255, 255, 255);
+    border-radius: 50%;
 }

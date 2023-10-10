@@ -1,6 +1,6 @@
 import { createSlice } from "@reduxjs/toolkit";
 import { configureStore } from "@reduxjs/toolkit";
-import { useState } from "react";
+// import { useState } from "react";
 
 
 const counterSlice = createSlice({
@@ -10,7 +10,7 @@ const counterSlice = createSlice({
         increaseCount(state) {
             state.value++;
         },
-
+        
         decrementCount(state) {
             if (state.value <= 0) {
                 return
@@ -24,8 +24,6 @@ const counterSlice = createSlice({
 
     }
 })
-
-
 
 const store = configureStore({ reducer: { counter: counterSlice.reducer } });
 

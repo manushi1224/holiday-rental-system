@@ -1,0 +1,48 @@
+:root {
+    --swiper-navigation-size: 11px;
+    --swiper-navigation-color: black;
+    --swiper-theme-color: white;
+}
+
+.swiper {
+    width: 22vw;
+}
+
+.swiper-container {
+    width: 22vw;
+}
+
+.swiper-slide>img {
+    height: 44vh;
+    width: 22vw;
+    object-fit: auto;
+    border-radius: 5%;
+}
+
+div.swiper-button-next,
+div.swiper-button-prev {
+    font-weight: 1000;
+    background-color: white;
+    height: 4vh;
+    width: 4vh;
+    border-radius: 50%;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+div.swiper-button-next:hover,
+div.swiper-button-prev:hover {
+    transform: scale(1.05);
+}
+
+div.swiper-button-next:active,
+div.swiper-button-prev:active {
+    transform: scale(0.95);
+}
+
+.card-data {
+    margin-left: -2vw;
+}
+
+.card-space {
+    width: 122%;
+}

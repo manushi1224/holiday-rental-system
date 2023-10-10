@@ -1,0 +1,52 @@
+:root {
+    --mainFont: 'Nunito Sans', sans-serif
+}
+
+.main{
+    font-family: var(--mainFont);
+}
+
+.modal-100w {
+    position: relative;
+    width: 100%;
+    max-width: 100%;
+}
+
+.list-modal {
+    list-style-type: none;
+}
+
+.footer {
+    position: fixed;
+    background-color: white !important;
+    max-width: 100%;
+    width: 100vw;
+    bottom: 0;
+    font-size: 15.3px;
+    border-top: 0.00001px solid rgb(190, 190, 190);
+}
+
+.modal-bottom {
+    padding-top: 32rem;
+    margin-left: -0.5rem;
+    width: 105%;
+}
+
+.close-btn{
+    border-radius: 50%;
+    margin-top: -1vh;
+}
+
+.support{
+    position: absolute;
+    right : 0;
+    margin-right: 10vw;
+}
+
+.underline{
+    font-size: 15.3px;
+}
+
+.underline:hover{
+    text-decoration: underline;
+}
