@@ -39,7 +39,7 @@ export default function Cards() {
                 <Container fluid={true} className="m-2 card-space" >
                     <Container className="fw-bold card-data" fluid={true}>Nashik, India <span className="float-end fw-lighter"><AiFillStar className="me-1"/>4.87</span></Container>
                     <Container className="card-data">150 kilometers away</Container>
-                    <Container className="card-data">10-17 Sept</Container>
+                    <Container className="card-data">10-17 Sept</Container>      
                     <Container className="card-data"><span className="fw-bold">$400</span> night</Container>
                     <Button>
                         <Link>

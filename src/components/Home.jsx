@@ -3,6 +3,7 @@ import Footer from "./Footer";
 import IconNav from "./IconNav";
 import Cards from "../components/Card";
 import { Main } from "./Main";
+import { Temp } from "./Temp";
 
 export default function Home() {
     return (
@@ -10,6 +11,7 @@ export default function Home() {
             <IconNav />
             <Cards />
             <Main />
+            <Temp />
             <Footer />
         </Fragment>
     )
